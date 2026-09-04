@@ -2,7 +2,7 @@
 
 An unofficial Android companion guide for Fishing Planet players, created by Smeltser Technologies.
 
-[Download the latest Android APK](https://github.com/joesmeltser/fishing-planet-guide/releases/latest)
+**[Visit the app website](https://joesmeltser.github.io/fishing-planet-guide/)** · [Download the latest Android APK](https://github.com/joesmeltser/fishing-planet-guide/releases/latest)
 
 ![Fishing Planet Guide for Android](social-preview.png)
 

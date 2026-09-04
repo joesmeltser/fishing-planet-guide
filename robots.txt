@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://joesmeltser.github.io/fishing-planet-guide/sitemap.xml
