@@ -4,6 +4,8 @@ An unofficial Android companion guide for Fishing Planet players, created by Sme
 
 [Download the latest Android APK](https://github.com/joesmeltser/fishing-planet-guide/releases/latest)
 
+![Fishing Planet Guide for Android](social-preview.png)
+
 ## App previews
 
 <p align="center">
