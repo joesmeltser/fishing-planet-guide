@@ -26,6 +26,7 @@ html {
 
 body {
   margin: 0;
+  overflow-x: clip;
   color: var(--text);
   background:
     radial-gradient(circle at 82% 6%, rgba(255, 163, 0, 0.08), transparent 22rem),
@@ -51,6 +52,7 @@ a {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 .skip-link {
@@ -289,6 +291,7 @@ nav a:focus-visible,
 }
 
 .preview-frame {
+  aspect-ratio: 2 / 1;
   overflow: hidden;
   border: 1px solid var(--line);
   border-radius: 1rem;
@@ -298,6 +301,8 @@ nav a:focus-visible,
 
 .preview-frame img {
   width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .qr-card {
@@ -318,7 +323,10 @@ nav a:focus-visible,
 
 .qr-card img {
   width: 5.8rem;
+  height: 5.8rem;
+  flex: 0 0 auto;
   border-radius: 0.35rem;
+  object-fit: contain;
 }
 
 .qr-card strong,
@@ -491,9 +499,12 @@ nav a:focus-visible,
 
 .screenshot-rail img {
   width: 100%;
+  height: auto;
+  aspect-ratio: 9 / 16;
   border: 1px solid var(--line);
   border-radius: 1rem;
   background: var(--panel);
+  object-fit: contain;
 }
 
 .screenshot-rail figcaption {
