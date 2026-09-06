@@ -65,6 +65,46 @@
         "downloadUrl": "https://github.com/joesmeltser/fishing-planet-guide/releases/latest"
       }
     </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Fishing Planet Guide?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Fishing Planet Guide is a free, unofficial Android companion that organizes fish, locations, preferred baits, hook sizes, tackle, hotspots, competitions, and tournaments in one place."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Fishing Planet Guide free?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The Android APK is available as a free download through the project's public GitHub Releases page."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I install Fishing Planet Guide on Android?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Download the latest APK, open it from your browser or Downloads folder, allow installation from that source if Android asks, and then tap Install."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is this an official Fishing Planet app?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Fishing Planet Guide is an independent, unofficial community reference created by Smeltser Technologies."
+            }
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -78,6 +118,7 @@
         <a href="#features">Features</a>
         <a href="#screenshots">Preview</a>
         <a href="#install">Install</a>
+        <a href="#faq">FAQ</a>
       </nav>
       <a class="header-download" data-download href="https://github.com/joesmeltser/fishing-planet-guide/releases/latest">
         Download
@@ -225,18 +266,47 @@
         </ol>
       </section>
 
+      <section class="section faq-section" id="faq">
+        <div class="section-heading">
+          <p class="eyebrow"><span></span> Quick answers</p>
+          <h2>Fishing Planet Guide FAQ.</h2>
+          <p>Everything players need to know before downloading the Android companion.</p>
+        </div>
+        <div class="faq-grid">
+          <details open>
+            <summary>What is Fishing Planet Guide?</summary>
+            <p>A free, unofficial Android companion that brings fish, locations, baits, hook guidance, tackle, hotspots, competitions, and tournaments together in one searchable guide.</p>
+          </details>
+          <details>
+            <summary>Is the app free?</summary>
+            <p>Yes. The current Android APK is free to download from the project's public GitHub Releases page.</p>
+          </details>
+          <details>
+            <summary>How do I install the APK?</summary>
+            <p>Download the latest APK, open it from your browser or Downloads folder, allow installation from that source if Android asks, and tap Install.</p>
+          </details>
+          <details>
+            <summary>Is this an official Fishing Planet app?</summary>
+            <p>No. This is an independent, unofficial community reference created by Smeltser Technologies. Fishing Planet names and trademarks belong to their respective owners.</p>
+          </details>
+        </div>
+      </section>
+
       <section class="section community-section">
         <div>
           <p class="eyebrow"><span></span> Built with the community</p>
-          <h2>Help make the guide better.</h2>
+          <h2>Share it with another angler.</h2>
           <p>
-            Found an incorrect stat, missing hotspot, or an idea that would help other anglers?
-            Feedback is always welcome.
+            Help more Fishing Planet players spend less time searching and more time fishing.
+            Found an incorrect stat or missing hotspot? Feedback is always welcome.
           </p>
         </div>
         <div class="community-actions">
+          <button class="button button-primary" id="share-guide" type="button">Share the guide</button>
+          <button class="button button-secondary" id="copy-guide-link" type="button">Copy link</button>
           <a class="button button-primary" href="mailto:smeltserspring@gmail.com?subject=Fishing%20Planet%20Guide%20Feedback">Email feedback</a>
           <a class="button button-secondary" href="https://github.com/joesmeltser/fishing-planet-guide/discussions/1">Join the discussion</a>
+          <span class="share-status" id="share-status" role="status" aria-live="polite"></span>
         </div>
       </section>
     </main>

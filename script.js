@@ -38,3 +38,47 @@ const updateLatestRelease = async () => {
 };
 
 updateLatestRelease();
+
+const GUIDE_URL = "https://joesmeltser.github.io/fishing-planet-guide/";
+const SHARE_TEXT =
+  "Free Fishing Planet companion guide for Android: fish, locations, bait, tackle, hotspots, competitions, and tournaments.";
+
+const shareButton = document.querySelector("#share-guide");
+const copyButton = document.querySelector("#copy-guide-link");
+const shareStatus = document.querySelector("#share-status");
+
+const setShareStatus = (message) => {
+  if (!shareStatus) return;
+  shareStatus.textContent = message;
+  window.setTimeout(() => {
+    if (shareStatus.textContent === message) shareStatus.textContent = "";
+  }, 4000);
+};
+
+const copyGuideLink = async () => {
+  try {
+    await navigator.clipboard.writeText(GUIDE_URL);
+    setShareStatus("Link copied — paste it anywhere you want to share the guide.");
+  } catch {
+    window.prompt("Copy this link:", GUIDE_URL);
+  }
+};
+
+shareButton?.addEventListener("click", async () => {
+  if (!navigator.share) {
+    await copyGuideLink();
+    return;
+  }
+
+  try {
+    await navigator.share({
+      title: "Fishing Planet Guide",
+      text: SHARE_TEXT,
+      url: GUIDE_URL,
+    });
+  } catch (error) {
+    if (error?.name !== "AbortError") setShareStatus("Sharing did not open. Use Copy link instead.");
+  }
+});
+
+copyButton?.addEventListener("click", copyGuideLink);
