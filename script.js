@@ -27,7 +27,16 @@ const updateLatestRelease = async () => {
     });
 
     if (releaseMeta) {
-      const details = [release.tag_name, "Android ARM64", formatBytes(apk?.size), "Free"].filter(Boolean);
+      const downloadCount = Number.isFinite(apk?.download_count)
+        ? `${apk.download_count.toLocaleString()} downloads`
+        : "";
+      const details = [
+        release.tag_name,
+        "Android ARM64",
+        formatBytes(apk?.size),
+        downloadCount,
+        "Free",
+      ].filter(Boolean);
       releaseMeta.textContent = details.join(" · ");
     }
   } catch {
