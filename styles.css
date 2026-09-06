@@ -357,6 +357,38 @@ nav a:focus-visible,
   border-bottom: 1px solid var(--line);
 }
 
+.promo-video-section {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(280px, 0.55fr);
+  align-items: center;
+  gap: clamp(36px, 7vw, 96px);
+}
+
+.promo-video-frame {
+  justify-self: center;
+  width: min(100%, 420px);
+  padding: 10px;
+  border: 1px solid rgba(255, 153, 0, 0.28);
+  border-radius: 30px;
+  background: linear-gradient(145deg, rgba(255, 153, 0, 0.12), rgba(255, 255, 255, 0.025));
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45);
+}
+
+.promo-video-frame video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  border-radius: 22px;
+  background: #000;
+  object-fit: cover;
+}
+
+@media (max-width: 780px) {
+  .promo-video-section {
+    grid-template-columns: 1fr;
+  }
+}
+
 .trust-strip div {
   padding: 1.5rem 2rem;
   border-right: 1px solid var(--line);

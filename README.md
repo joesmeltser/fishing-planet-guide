@@ -6,6 +6,10 @@ An unofficial Android companion guide for Fishing Planet players, created by Sme
 
 ![Fishing Planet Guide for Android](social-preview.png)
 
+## Watch the app tour
+
+**[Play the Fishing Planet Guide promotional video](https://joesmeltser.github.io/fishing-planet-guide/#video)**
+
 ## App previews
 
 <p align="center">
