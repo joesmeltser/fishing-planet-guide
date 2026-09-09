@@ -27,6 +27,7 @@ An unofficial Android companion guide for Fishing Planet players, created by Sme
 
 - Fish, locations, preferred baits, hook sizes, rigs, and hotspot guidance
 - Level-ordered waterways with travel costs and fish lists
+- Interactive level 1-105 progression routes with target fish and recommended setups
 - Detailed rods, reels, lines, lures, hooks, rigs, equipment, and other tackle
 - Fishing Planet competition and tournament reference sections
 - A dark Fishing Planet-inspired design with orange accents
