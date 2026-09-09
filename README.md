@@ -40,4 +40,14 @@ An unofficial Android companion guide for Fishing Planet players, created by Sme
 
 The current APK is built for ARM64 Android phones.
 
-This is an unofficial community reference guide. Fishing Planet names and trademarks belong to their respective owners.
+## Copyright and legal status
+
+Copyright © 2026 Smeltser Technologies. All rights reserved. Copyright is
+claimed only in original material created for this guide, including original
+code, writing, organization, interface elements, and original artwork.
+
+Fishing Planet and related trademarks are the property of Fishing Planet LLC.
+Fishing Planet Guide is an unofficial community companion and is not
+affiliated with, sponsored by, endorsed by, or approved by Fishing Planet LLC.
+See the [legal notice](https://joesmeltser.github.io/fishing-planet-guide/legal.html)
+for details.
