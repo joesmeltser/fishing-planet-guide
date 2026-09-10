@@ -19,6 +19,12 @@ An unofficial Android companion guide for Fishing Planet players, created by Sme
 </p>
 
 <p align="center">
+  <img src="previews/fish-hotspot.png" alt="Fish hotspot and setup" width="30%">
+  <img src="previews/leveling.png" alt="Interactive leveling route" width="30%">
+  <img src="previews/events.png" alt="Events category" width="30%">
+</p>
+
+<p align="center">
   <img src="previews/competitions.png" alt="Competitions guide" width="30%">
   <img src="previews/tournaments.png" alt="Tournaments guide" width="30%">
 </p>
