@@ -50,7 +50,7 @@ updateLatestRelease();
 
 const GUIDE_URL = "https://joesmeltser.github.io/fishing-planet-guide/";
 const SHARE_TEXT =
-  "Free Fishing Planet companion guide for Android: fish, locations, bait, tackle, hotspots, competitions, and tournaments.";
+  "Free Fishing Planet companion guide for Android with hotspot coordinates, complete setups, and interactive level 1-105 routes.";
 
 const shareButton = document.querySelector("#share-guide");
 const copyButton = document.querySelector("#copy-guide-link");
