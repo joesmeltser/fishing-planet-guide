@@ -45,7 +45,9 @@ An unofficial Android companion guide for Fishing Planet players, created by Sme
 3. Open the APK on your Android phone.
 4. If Android asks, allow installation from your browser or file manager.
 
-The current APK is built for ARM64 Android phones.
+The release includes an ARM64 APK for modern Android phones and an ARMv7
+fallback for older 32-bit devices. An unsigned iOS IPA is also included for
+personal sideloading and must be signed with an Apple ID before installation.
 
 ## Copyright and legal status
 
