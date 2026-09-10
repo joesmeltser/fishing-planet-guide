@@ -4,7 +4,7 @@ An unofficial Android companion centered on fish hotspot coordinates, complete s
 
 **[Visit the app website](https://joesmeltser.github.io/fishing-planet-guide/)** · [Download the latest Android APK](https://github.com/joesmeltser/fishing-planet-guide/releases/latest)
 
-![Fishing Planet Guide for Android](social-preview.png)
+![Fishing Planet Guide for Android](social-preview.png?v=6)
 
 ## Watch the app tour
 
